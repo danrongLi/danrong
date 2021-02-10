@@ -121,11 +121,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .header-social-links a:hover {
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #000000;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
-  width: 25px;
+  width: 30px;
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
